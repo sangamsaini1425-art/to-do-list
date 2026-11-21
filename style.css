@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#blue-text{
+    color: blueviolet;
+}
+.taskmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    height: 3rem;
+}
+input[type="text"]{
+    width: 70%;
+    height: 2rem;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#taskbtn{
+    background-color: blueviolet;
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}
+.task-container{
+    width: 80%;
+    margin: 20px auto;
+}
+.task{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.task input[type="checkbox"]{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+.delete-btn{
+    margin-left: auto;
+    background-color: rgba(173, 219, 230, 0.566);;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(173, 219, 230, 0.566);
+}
+.taskcount{
+    background-color: #111c2c;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: large;
+    border: 3px solid blueviolet ;
+    /* margin-top: 40px; */
+}
+#resetbtn{
+    background-color: #111c2c;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 3px solid blueviolet ;
+    /* margin-left: 10px; */
+}
+.greentext{
+    color: green;
+}
+#clear{
+     background-color: #111c2c;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 3px solid blueviolet ;
+    /* margin-left: 10px; */
+}
+.allbtns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
